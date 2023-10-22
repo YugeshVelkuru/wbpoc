@@ -1,0 +1,55 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply some basic styling to the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  h1 {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Style buttons */
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  /* Change button style on hover */
+  button:hover {
+    background-color: #258cd1;
+  }
+  
+  /* Style the status div */
+  #status {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+    font-size: 18px;
+  }
+  
+  /* Add some padding and center content on larger screens */
+  @media (min-width: 768px) {
+    body {
+      padding: 20px;
+    }
+  }
+  

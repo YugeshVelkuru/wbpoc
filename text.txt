@@ -1,0 +1,7 @@
+Microcontroller (e.g., Arduino) to control the door and monitor its status.
+
+Sensors for monitoring door status (open or closed).
+
+Relay or motor control to open and close the door.
+
+Power management system to control and monitor the door's power supply.
